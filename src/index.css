@@ -9,3 +9,16 @@
   filter: blur(10px);
   backdrop-filter: blur(5.5px);
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 10%;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+}

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Form } from "./components/form";
+import { Form } from "./assets/form";
 
 export const HomePage = ({ data }) => {
     return (
