@@ -16,8 +16,12 @@ export const Router = () => {
               element={
                 <Page
                   name={project.name}
-                  background={project.background}
-                  background_image={project.banner_image_url}
+                  logo={project.logo}
+                  primary_color={project.primary_color}
+                  secondary_color={project.secondary_color}
+                  description={project.descritpion}
+                  stand={project.stand}
+                  banner={project.banner}
                 />
               }
             />
